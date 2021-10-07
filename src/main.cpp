@@ -13,7 +13,8 @@
  *  Expected Enhancements - Addition of Programability new Remotes, EEPROM support
  * Coded by - Suman Saha
  */
-  
+
+#include <arduino.h>  
 #include <IRremote.h>
  
   int RECV_PIN = 11; // the pin where you connect the output pin of TSOP4838
